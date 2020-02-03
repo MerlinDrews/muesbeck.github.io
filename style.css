@@ -1,0 +1,120 @@
+* {
+    font-family: 'Exo', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 1em;
+    background-color: #fefefe;
+}
+
+footer p {
+    font-size: smaller;
+}
+
+a {
+    color: #00B7FF;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 2em;
+    font-weight: bold;
+    color: #eb6e00;
+    background-color: #38474f;
+    font-size: 24pt;
+    padding: 0.25em;
+    text-align: center;
+    border-radius: 0.25em;
+}
+
+h1 {
+	font-size: 30pt;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	padding-top: 0.25em;
+    padding-bottom: 0.25em;
+	background-color: #38474f;
+	border-radius: 0.25em;
+}
+
+b {
+    font-weight: bolder;
+}
+
+p, div, ul li  {
+    font-size: 14pt;
+    line-height: 24pt;
+    color: #444;
+    text-align: justify;
+}
+
+p.address small {
+    line-height: 10pt;
+}
+
+@media only screen and (max-width: 640px){
+
+    h1, h2, h3, h4, h5 {
+        margin-top: 2em;
+        font-size: 16pt;
+    }
+
+    p, ul li  {
+        font-size: 11pt;
+        line-height: 18pt;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1224px){
+    body {
+        max-width:60%;
+        margin: 2em auto;
+        text-align: left;
+    }
+}
+
+#oldname {
+	color: #cacaca;
+	font-size: 20pt;
+	font-style: italic;
+    text-align: center;
+}
+
+#shortdesc {
+	text-align: center;
+    margin-top: 1.25em;
+}
+
+#email {
+	text-align: left;
+}
+
+.divider {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+    color: #38474f;
+}
+
+.socialicon {
+    font-size: 1.5em;
+    margin-right: 0.25em;
+}
+.social {
+    text-align: left;
+}
+
+#contact {
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+}
